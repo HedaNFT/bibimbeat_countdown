@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+font-family: 'Ubuntu', sans-serif;
+}
+html {
+  background: url(bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#logo{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+
+}
+img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 7.5vh;
+}
+
+body {
+overflow: hidden;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 25vh;
+}
+
+.countdownBx{
+position: relative;
+display: flex;
+flex-direction: column;
+/* background-color: red; */
+justify-content: center;
+top: 80px;
+}
+
+h2 {
+font-size: 80px;
+font-family: 'Righteous', cursive;
+text-align: center;
+}
+
+h3 {
+  position: relative;
+  font-size: 30px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  top: 30px;
+}
+
+p {
+  position: relative;
+  top: 40px;
+  font-size: 15px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+span {
+font-size: 50px;
+position: relative;
+text-align: center;
+top: 41%;
+}
+
+.countdown{
+position: relative;
+display: flex;
+flex-direction: row;
+/* background-color: yellow; */
+top: 10px;
+justify-content: center;
+left: 50px;
+bottom: 50px;
+}
+
+.countdown div{
+  width: 200px;
+  text-align: center;
+
+}
+.digits{
+  display: flex;
+  font-size: 40px;
+}
+#day{}
+#hour{}
+#minute{}
+#second{}
+
+.applyButton {
+  position: relative;
+  left: 40%;
+  top: 50px;
+  /* margin-top: 38px; */
+  /* margin-left: 105px; */
+  width: 20%;
+  height: 50px;
+  background: #944949 0% 0% no-repeat padding-box;
+  box-shadow: 2px 3px 6px #00000029;
+  border-radius: 52px;
+  opacity: 1;
+  color: white;
+  font-size: 23px;
+}
+
+@media (max-width: 840px)  {
+  h2 {
+  font-size: 45px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  }
+  img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+      top: 130px;
+  }
+  body {
+overflow: hidden;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+span {
+font-size: 25px;
+position: relative;
+text-align: center;
+top: 90%;
+}
+.digits{
+  display: flex;
+  font-size: 35px;
+}
+.countdown div{
+  width: 80px;
+  text-align: center;
+}
+.countdown{
+position: relative;
+display: flex;
+flex-direction: row;
+/* background-color: yellow; */
+top: 50px;
+justify-content: center;
+left: 20px;
+}
+}
